@@ -1,0 +1,19 @@
+This white paper is arranged in three major parts. The first one deals with a
+short recipe style description of a sample Multi Site Ceph Gateway installation
+while the second one will convey a deeper understanding of the configuration
+parameters and underlying concepts so that we are better able to
+design different configurations. A third and last part deals with handling
+fail­over and fall­back processes in case of a disaster.
+We assume enough Ceph knowledge to install required software packages,
+create Ceph users and pools etc. Therefore these topics are not covered in
+this  paper.  Also  load­balancer  and  DNS  network  configurations  are  not
+covered in greater detail because the environments will change substantially
+from installation to installation.
+We also assume some basic know how on the S3 protocol and how to use it.
+Some tests have been performed on a Fujitsu Storage ETERNUS CD10000
+system, a reference architecture based on Red Hat Ceph Storage V2.0 running
+on RHEL 7 at the time of testing.
+Most of the commands are expected to work across multiple Linux distributions
+like CentOS, Ubuntu, and SLES. The most obvious differences are
+centred around the various system start­up methods like systemd, upstart
+etc.
