@@ -1,5 +1,4 @@
-#!/usr/bin/env python
-#coding=utf-8
+#!/usr/bin/env python #coding=utf-8
 
 from PIL import Image, ImageDraw, ImageFont
 
@@ -12,11 +11,10 @@ def img_addnum(img_name, num):
     h = im.height;
     #anotheer method
     #w, h = im.size
-    print h, w
+    #print(h, w)
     
     #load font
-    #fnt = ImageFont.load_default()
-    fnt = ImageFont.truetype('arial.ttf', int(h * 0.15))
+    fnt = ImageFont.truetype('Arial.ttf', int(h * 0.15))
 
     draw.text((w * 0.9 , h * 0.05), num, font=fnt, fill=(255, 0, 0, 128))
     im.save(img_name.split('.')[0] + '2.jpg')
