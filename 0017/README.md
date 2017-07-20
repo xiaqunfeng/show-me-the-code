@@ -55,13 +55,27 @@ Installing collected packages: xlrd
 Successfully installed xlrd-1.0.0
 ```
 
-打开文件：
+### API
+
+官方api文档：http://xlrd.readthedocs.io/en/latest/api.html
+
+```
+xlrd.open_workbook(filename=None, logfile=<_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>, verbosity=0, use_mmap=1, file_contents=None, encoding_override=None, formatting_info=False, on_demand=False, ragged_rows=False)
+```
+
+功能：打开一个电子表格文件进行数据提取
+
+返回值：返回一个 Book 类的实例
+
+### 示例
+
+**打开文件：**
 
 ```
 excel = xlrd.open_workbook("test.xls")  
 ```
 
-获取表格：
+**获取表格：**
 
 ```
 table = excel.sheets()[0]            #通过索引获取
@@ -69,7 +83,7 @@ table = excel.sheet_by_index(0)      #通过索引获取
 table = excel.sheet_by_name('set')   #通过表名获取
 ```
 
-获取表格的数据：
+**获取表格的数据：**
 
 ```
 nrows = table.nrows                 #行数

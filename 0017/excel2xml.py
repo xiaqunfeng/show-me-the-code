@@ -5,9 +5,9 @@ from lxml import etree
 from collections import OrderedDict
 
 def xls2xml(filename, outfile):
-    excel = xlrd.open_workbook(filename)
-    #table = excel.sheet_by_name('student')
-    table = excel.sheet_by_index(0)
+    with xlrd.open_workbook(filename) as excel:
+        #table = excel.sheet_by_name('student')
+        table = excel.sheet_by_index(0)
 
     data = OrderedDict()
     for i in range(table.nrows):
