@@ -1,5 +1,32 @@
-## Python 练习册，每天一个小程序 ##
+## README.md
 
+python小程序学习笔记，每一个小project包含以下部分：
+
+- 完整的代码
+
+- 该project中用到的库、函数使用总结，温故而知新
+
+- 完成过程中遇到的问题及解决和思考方法
+
+- 运行结果示例
+
+**运行环境：**
+
+```
+▶ sw_vers
+ProductName:	Mac OS X
+ProductVersion:	10.12.1
+BuildVersion:	16B2657
+```
+
+**python版本：**
+
+```
+▶ python3 --version
+Python 3.6.0
+```
+
+## Python 练习册，每天一个小程序 ##
 
 #### 说明： ####
 
