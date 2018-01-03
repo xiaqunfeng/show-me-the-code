@@ -1,5 +1,7 @@
 ## README.md
 
+### 说明
+
 python小程序学习笔记，每一个小project包含以下部分：
 
 - 完整的代码
@@ -26,6 +28,37 @@ BuildVersion:	16B2657
 Python 3.6.0
 ```
 
+### 解决列表
+
+| 问题   | 当前状态                         |
+| ---- | ---------------------------- |
+| 000  | Solved                       |
+| 001  | Solved                       |
+| 002  | Solved                       |
+| 003  | TODO                         |
+| 004  | Solved                       |
+| 005  | Solved                       |
+| 006  | Solved                       |
+| 007  | Solved                       |
+| 008  | Solved                       |
+| 009  | Solved                       |
+| 010  | Solved                       |
+| 011  | Solved                       |
+| 012  | Solved                       |
+| 013  | Solved                       |
+| 014  | Solved                       |
+| 015  | Solved (Similar with 0014)   |
+| 016  | Solved (Similar with 0014)   |
+| 017  | Solved                       |
+| 018  | Method is the same with 0017 |
+| 019  | Method is the same with 0017 |
+| 020  | TODO                         |
+| 021  | Solved                       |
+| 022  | Solved                       |
+| 023  | Solved                       |
+| 024  | TODO                         |
+| 025  | TODO                         |
+
 ## Python 练习册，每天一个小程序 ##
 
 #### 说明： ####
@@ -38,7 +71,7 @@ Python 3.6.0
 > Talk is cheap. Show me the code.--Linus Torvalds
 
 ----------
- 
+
 **第 0000 题：**将你的 QQ 头像（或者微博头像）右上角加上红色的数字，类似于微信未读信息数量那种提示效果。
 类似于图中效果
 
@@ -80,8 +113,8 @@ Python 3.6.0
     你妈
     love
     sex
-	jiangge
-	
+    jiangge
+
 **第 0012 题：** 敏感词文本文件 filtered_words.txt，里面的内容 和 0011题一样，当用户输入敏感词语，则用 星号 * 替换，例如当用户输入「北京是个好城市」，则变成「**是个好城市」。
 
 **第 0013 题：** 用 Python 写一个爬图片的程序，爬 [这个链接里的日本妹子图片 :-)](http://tieba.baidu.com/p/2166231880)
@@ -210,9 +243,9 @@ Python 3.6.0
 
 
     例如，对着笔记本电脑吼一声“百度”，浏览器自动打开百度首页。
-    
+
     关键字：Speech to Text
-    
+
 参考思路：    
 1：获取电脑录音-->WAV文件
     python record wav
@@ -220,7 +253,7 @@ Python 3.6.0
 2：录音文件-->文本
 
     STT: Speech to Text
-    
+
     STT API Google API
 
 3:文本-->电脑命令
