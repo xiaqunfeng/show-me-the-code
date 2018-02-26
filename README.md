@@ -4,6 +4,7 @@
     * [解决列表](#解决列表)
 * [Python练习册](#Python练习册)
     * [000~025](#000-025)
+    * [pic2ascii](#pic2ascii)
 
 ## README.md
 
@@ -37,34 +38,35 @@ Python 3.6.0
 
 ### 解决列表
 
-| 问题   | 当前状态                         |
-| ---- | ---------------------------- |
-| 000  | Solved                       |
-| 001  | Solved                       |
-| 002  | Solved                       |
-| 003  | TODO                         |
-| 004  | Solved                       |
-| 005  | Solved                       |
-| 006  | Solved                       |
-| 007  | Solved                       |
-| 008  | Solved                       |
-| 009  | Solved                       |
-| 010  | Solved                       |
-| 011  | Solved                       |
-| 012  | Solved                       |
-| 013  | Solved                       |
-| 014  | Solved                       |
-| 015  | Solved (Similar with 0014)   |
-| 016  | Solved (Similar with 0014)   |
-| 017  | Solved                       |
-| 018  | Method is the same with 0017 |
-| 019  | Method is the same with 0017 |
-| 020  | TODO                         |
-| 021  | Solved                       |
-| 022  | Solved                       |
-| 023  | Solved                       |
-| 024  | TODO                         |
-| 025  | TODO                         |
+| 问题        | 当前状态                         |
+| --------- | ---------------------------- |
+| 000       | Solved                       |
+| 001       | Solved                       |
+| 002       | Solved                       |
+| 003       | TODO                         |
+| 004       | Solved                       |
+| 005       | Solved                       |
+| 006       | Solved                       |
+| 007       | Solved                       |
+| 008       | Solved                       |
+| 009       | Solved                       |
+| 010       | Solved                       |
+| 011       | Solved                       |
+| 012       | Solved                       |
+| 013       | Solved                       |
+| 014       | Solved                       |
+| 015       | Solved (Similar with 0014)   |
+| 016       | Solved (Similar with 0014)   |
+| 017       | Solved                       |
+| 018       | Method is the same with 0017 |
+| 019       | Method is the same with 0017 |
+| 020       | TODO                         |
+| 021       | Solved                       |
+| 022       | Solved                       |
+| 023       | Solved                       |
+| 024       | TODO                         |
+| 025       | TODO                         |
+| pic2ascii | Solved                       |
 
 ## Python练习册
 
@@ -264,5 +266,10 @@ Python 3.6.0
     STT: Speech to Text
 
     STT API Google API
+3:文本-->电脑命令
 
-3:文本-->电脑命令​
+### pic2ascii
+
+功能：将图片转化为ascii码
+
+![pic](pic-to-ascii/ascii_dora.png)
