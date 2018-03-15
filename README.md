@@ -5,6 +5,7 @@
 * [Python练习册](#Python练习册)
     * [000~025](#000-025)
     * [pic2ascii](#pic2ascii)
+    * [12306](#12306)
 
 ## README.md
 
@@ -67,6 +68,7 @@ Python 3.6.0
 | 024       | TODO                         |
 | 025       | TODO                         |
 | pic2ascii | Solved                       |
+| 12306     | DOING                        |
 
 ## Python练习册
 
@@ -273,3 +275,9 @@ Python 3.6.0
 功能：将图片转化为ascii码
 
 ![pic](pic-to-ascii/ascii_dora.png)
+
+### 12306
+
+功能：查询火车票余票
+
+当前进度：解析新的响应的json格式中
