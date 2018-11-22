@@ -6,6 +6,7 @@
     * [000~025](#000-025)
     * [pic2ascii](#pic2ascii)
     * [12306](#12306)
+    * [multiDownloader](#multiDownloader)
 
 ## README.md
 
@@ -69,6 +70,7 @@ Python 3.6.0
 | 025       | TODO                         |
 | pic2ascii | Solved                       |
 | 12306     | DOING                        |
+| multiDownloader | Solved                  |
 
 ## Python练习册
 
@@ -256,17 +258,17 @@ Python 3.6.0
 
 
     例如，对着笔记本电脑吼一声“百度”，浏览器自动打开百度首页。
-
+    
     关键字：Speech to Text
 
 参考思路：    
 1：获取电脑录音-->WAV文件
-    python record wav
+​    python record wav
 
 2：录音文件-->文本
 
     STT: Speech to Text
-
+    
     STT API Google API
 3:文本-->电脑命令
 
@@ -281,3 +283,10 @@ Python 3.6.0
 功能：查询火车票余票
 
 当前进度：解析新的响应的json格式中
+
+### multiDownloader
+
+功能：多线程下载
+
+- 多线程下载图片列表
+- 多线程下载大文件
