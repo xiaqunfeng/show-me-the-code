@@ -6,14 +6,14 @@ def count_words(dirpath):
         print('please input legal dirpath!')
         return
 
-    exclude_words = ['a', 'an', 'the', 'and', 'or', 'of', 'in', 'at', 'to', 'is']
-    re_obj = re.compile('\b?(\w+)\b?')
+    exclude_words = ['a', 'an', 'the', 'and', 'or', 'of', 'in', 'at', 'to', 'is', 's', 're']
+    re_obj = re.compile("\b?(\w+)\b?")
     for root, dirs, files in os.walk(dirpath):
         for name in files:
             filename = os.path.join(root, name)
             if not os.path.isfile(filename) or not os.path.splitext(filename)[1] == '.txt':
                 print('diary < %s > format is not .txt' % filename)
-                return
+                continue
             #with open(filename) as f:
             f = open(filename, 'r')
             data = f.read()
@@ -29,8 +29,9 @@ def count_words(dirpath):
                     word_dict[word] = 1
             f.close()
             word_dict = sorted(word_dict.items(), key = lambda x: x[1], reverse = True)
-            print('The most word in diary < %s > is: %s' % (name, word_dict[1]))
+            print('The most word in diary < %s > is: %s' % (name, word_dict[0]))
 
 if __name__ == '__main__':
+    #count_words('diary')
     count_words('diary')
 
